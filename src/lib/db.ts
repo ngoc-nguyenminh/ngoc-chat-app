@@ -1,5 +1,5 @@
-import { Redis } from '@upstash/redis'
+import { Redis } from '@upstash/redis';
 
-const a = process.env.UPSTASH_REDIS_REST_TOKEN
+const a = process.env.UPSTASH_REDIS_REST_TOKEN;
 
-export const db = Redis.fromEnv()
+export const db = Redis.fromEnv();

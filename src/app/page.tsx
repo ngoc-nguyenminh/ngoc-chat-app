@@ -5,7 +5,7 @@ export default async function Home() {
   await db.set('hi', 'hi');
   return (
     <Button size='lg' variant='default'>
-      claksclaknsclnak
+      Hallo
     </Button>
   );
 }
